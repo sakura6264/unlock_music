@@ -1,1 +1,0 @@
-go build -buildmode=c-shared -ldflags="-s -w" -o Um.dll

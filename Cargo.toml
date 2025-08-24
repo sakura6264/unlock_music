@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "decoder",
+    "ui",
+]
+
+[workspace.dependencies]
+id3 = "*"
+rust-crypto = "*"
+base64 = "*"
+serde = { version = "*", features = ["derive"]}
+serde_json = "*"
+bytes = "*"
+thiserror = "*"
+
+[profile.release]
+strip = true
+lto = "thin"
+panic = "abort"

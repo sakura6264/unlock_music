@@ -1,7 +1,1 @@
-Lib/cli/*.dll
-Lib/cli/*.exe
-Lib/cli/*.h
-.vs/
-bin/
-obj/
-*.user
+/target
